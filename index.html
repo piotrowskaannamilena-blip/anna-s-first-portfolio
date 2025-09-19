@@ -8,39 +8,41 @@
     <title>My Code & Crochet Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <header>
-    <h1> Hi, I'm Anna!</h1>
-    <p>Coding Crochet Sketching</p>
-    <p>This is my first portfolio website - Bootcamp</p>
-    <button id="theme-toggle"> Dark mode</button>
+    <div class="bannerimage" id="bannerimage">
+      <div class ="bannertext" id ="bannertext">
+      <header>
+        <h1>Hi, I'm Anna! This is my first portfolio website</h1>
+        <h2>Coding Crochet Sketching</h2>
   </header>
+      </div>
+    </div>
+
 
   <nav>
     <a href="#about">About</a>
+    <a href="#coding">Coding</a>
     <a href="#crochet">Crochet</a>
     <a href="#sketching">Sketching</a>
     <a href="#contact">Contact</a>
   </nav>
 
+  <body>
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>I love coding, crochet, sketching and creating. This is my cozy little corner of the internet to share what I make with yarn and pixels.</p>
+      <p>Anna Piotrowska is a full stack software engineer with a passion for creating fun user interfaces. This website was crafted from scratch thinking of a professional attractive web experience
+        I love coding, crochet, sketching and creating. This is my cozy little corner of the internet to share what I make with pixels, code, pen and yarn.</p>
     </section>
 
+
+
     <section id="crochet">
-      <h2>Crochet Projects</h2>
-      <ul>
-        <li>Granny square coasters</li>
-        <li>Mushroom</li>
-        <li>Boho plant hanger</li>
-      </ul>
+      <h3>Crochet Projects</h3>
     </section>
 
     <section id="sketching">
       <h2>My Sketches</h2>
-      <p>I sketch using pencil and ink — usually people and nature.</p>
+      <p>I sketch using pencil and ink — usually people, life sketching of events and nature.</p>
         <img src="pic1.jpg" alt="Sketch1">
         <img src="pic2.jpg" alt="Sketch2">
         <img src="pic7.jpg" alt="Sketch7">
@@ -58,23 +60,27 @@
         <img src="pic17.jpg" alt="Sketch17">
     </section>
 
-
     <section id="contact">
       <h2>Contact Me</h2>
-      <ul>
-        <li>Email: piotrowska.anna.milena@email.com
-        <a href="mailto:piotrowska.anna.milena@gmail.com">Send email to Anna</a></li> 
-        <li>Instagram: @annasyarn</li>
-        <li>GitHub:<a href="https://github.com/piotrowskaannamilena-blip" > Anna's GitHub </a> </li>
-        <li>Linkedin<a href ="https://www.linkedin.com/in/anna-piotrowska-4588a49b ">Visit my Linkedin</a></li>
-      </ul>
+        <div class ="email"> <a href="mailto:piotrowska.anna.milena@gmail.com">Email me:</a></div>
+        <div class = "github"> <a href="https://github.com/piotrowskaannamilena-blip">My GitHub</a></div>
+        <div class ="linkedin"><a href="https://www.linkedin.com/in/anna-piotrowska-4588a49b ">My Linkedin </a></div>
+        <div class ="instagram"><a href="https://www.instagram.com/sadmissroe/" >My Instagram </a></div>
     </section>
+
   </main>
+      <section>
+        <p>This is a paragraph of text. Below are some items:</p>
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+    </section>
+
+    <aside>
+        <p class="hidden-text">This text is hidden and should be made visible.</p>
+    </aside>
 
   <footer>
     <p> Made with code, love & yarn by LANIA — 2025</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

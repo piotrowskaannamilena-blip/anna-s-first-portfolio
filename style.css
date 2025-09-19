@@ -1,0 +1,93 @@
+* {
+  width: 100%;
+}
+
+.bannerimage {
+  background: url("banner.jpg");
+  background-size:cover;
+  background-position: center;
+  border: 1px black;
+  position:sticky;
+  width: 100%;
+  height: 400px;
+  padding-top: 40%; 
+}
+
+.bannertext {
+  margin: 10%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', cursive;
+  background-color: rgb(235, 205, 205);
+  color: black;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* header { */
+  /* background-color: whitesmoke; 
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px; */
+/* } */
+
+header h1 {
+  color: violet;
+  font-size: 2.5rem;
+  text-align:center;
+  margin: 5%;
+  font-weight: bold;
+}
+
+header h2 {
+  color: lightsalmon;
+  margin-bottom: 10px;
+  text-align: center;
+}
+header p {
+  font-style: 'Comic Sans MS', 'Segoe UI',;
+}
+
+#nav {
+  display: contents;
+  text-align: center;
+  font-style: 'Mono ';
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  position:fixed;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+#about{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+section contact {
+  list-style: square inside;
+  display: run-in;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px dotted lightsalmon;
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: lightblue;
+}
